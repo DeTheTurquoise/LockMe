@@ -8,5 +8,5 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:id="@+id/lock_widget_icon"
-        android:src="@mipmap/lockme"/>
+        android:src="@mipmap/key"/>
 </FrameLayout>

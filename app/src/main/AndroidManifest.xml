@@ -5,12 +5,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/lockme"
-        android:roundIcon="@mipmap/lockme"
+        android:icon="@mipmap/key"
+        android:roundIcon="@mipmap/key"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Lock">
+        <activity android:name=".Lock"
+            android:autoRemoveFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
